@@ -29,7 +29,7 @@ export function Gallery({
           <img
             src={thumbnail}
             alt={`${title} preview image`}
-            className={`w-full object-cover ${compact ? "aspect-[4/3] max-h-60" : "aspect-[16/9] lg:h-[450px]"}`}
+            className={`w-full object-contain ${compact ? "aspect-[4/3] max-h-60" : "aspect-[16/9] lg:h-[450px]"}`}
           />
         </div>
       </div>
@@ -55,7 +55,7 @@ export function Gallery({
           <img
             src={activeImage}
             alt={`${title} screenshot ${activeIndex + 1}`}
-            className={`${compact ? "aspect-[4/3] max-h-60 w-full object-cover" : "aspect-[16/9] lg:aspect-auto lg:h-[450px] w-full object-cover"} transition duration-300 hover:scale-[1.01]`}
+            className={`${compact ? "aspect-[4/3] max-h-60 w-full object-contain" : "aspect-[16/9] lg:aspect-auto lg:h-[450px] w-full object-contain"} transition duration-300 hover:scale-[1.01]`}
           />
         </button>
       </div>
