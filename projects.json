@@ -54,5 +54,12 @@
     "authors": ["https://github.com/ChillzonToast"],
     "description": "A user-friendly app to quickly authenticate to nitc network. ",
     "website": ""
+  },
+  {
+    "title": "The 3rd Eye",
+    "project": "https://github.com/Ordinary0x/The-3rd-Eye",
+    "authors": ["https://github.com/Ordinary0x"],
+    "description": "The 3rd Eye is a modular OSINT (Open Source Intelligence) framework built on an agent-based, graph-driven architecture. It automates public information discovery, identity correlation, and exposure analysis across multiple platforms, and generates structured intelligence reports. The system follows a LangGraph agent design.",
+    "website": ""
   }
 ]
