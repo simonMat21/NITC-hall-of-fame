@@ -6,7 +6,14 @@
     "stars": 3,
     "forks": 1,
     "language": "Go",
-    "topics": ["gifs", "go", "image", "jpg", "png", "terminal"],
+    "topics": [
+      "gifs",
+      "go",
+      "image",
+      "jpg",
+      "png",
+      "terminal"
+    ],
     "license": null,
     "lastUpdated": "2026-05-23T10:37:22Z",
     "screenshots": [
@@ -196,7 +203,9 @@
     "topics": [],
     "license": null,
     "lastUpdated": "2026-04-05T21:32:51Z",
-    "screenshots": ["/projects/nitc-chatbot/thumbnail.png"],
+    "screenshots": [
+      "/projects/nitc-chatbot/thumbnail.png"
+    ],
     "thumbnail": "/projects/nitc-chatbot/thumbnail.png",
     "website": null,
     "authors": [
@@ -282,9 +291,101 @@
         "bio": null
       }
     ],
-    "submissionOrder": 10,
+    "submissionOrder": 9,
     "readmeMarkdown": "# TypeMonkey - Advanced Typing Test Application\n\nA modern, feature-rich typing test application built with Next.js, TypeScript, and React. TypeMonkey provides a comprehensive typing experience with real-time analytics, customizable themes, and advanced performance tracking.\nI mean at the end of the day it is a monkeytype clone, just made from scratch...\n\n## Features\n\n### Core Typing Experience\n\n- **Real-time typing test** with dynamic word generation\n- **Custom cursor tracking** that follows your typing position\n- **Smart auto-scrolling** for seamless typing experience\n- **Mouse interference protection** - prevents focus loss while actively typing\n- **Visual typing mode indicator** with colored border when protection is active\n- **Word-by-word timing** for detailed performance analysis\n\n### Advanced Analytics\n\n- **Words Per Minute (WPM)** calculation in real-time\n- **Raw typing speed** measurement\n- **Typing accuracy** percentage tracking\n- **Consistency scoring** using statistical analysis\n- **Interactive performance charts** with Chart.js integration\n- **Mistake tracking** with visual error indicators\n- **Kalman filtering** for smooth data visualization\n\n### Timer & Modes\n\n- **Customizable timer modes**: 15s, 30s, 60s, 120s, and more\n- **Real-time countdown** display\n- **Automatic test completion** when timer expires\n- **Performance snapshots** captured every second during typing\n\n### User Interface\n\n- **Dark/Light theme** support with system preference detection\n- **Responsive design** for all screen sizes\n- **Modern glassmorphism** UI elements\n- **Smooth animations** and transitions\n- **Loading states** with custom spinners\n- **Clean typography** with Geist mono font\n\n### Results & Statistics\n\n- **Comprehensive results page** with detailed metrics\n- **Statistical analysis** including standard deviation\n- **Performance consistency** measurements\n- **Historical data** visualization with interactive charts\n- **Export capabilities** for performance data\n\n## Technology Stack\n\n- **Frontend Framework**: Next.js 15.3.5 with React 19\n- **Language**: TypeScript for type safety\n- **Styling**: Tailwind CSS + CSS Modules\n- **Charts**: Chart.js for interactive data visualization\n- **Icons**: React Icons library\n- **Development**: ESLint for code quality\n- **Build Tool**: Turbopack for fast development\n\n## Getting Started\n\n### Prerequisites\n\n- Node.js 18.0 or higher\n- npm, yarn, pnpm, or bun package manager\n\n### Installation\n\n1. **Clone the repository**\n\n   ```bash\n   git clone <repository-url>\n   cd typing-test-app\n   ```\n\n2. **Install dependencies**\n\n   ```bash\n   npm install\n   # or\n   yarn install\n   # or\n   pnpm install\n   # or\n   bun install\n   ```\n\n3. **Run the development server**\n\n   ```bash\n   npm run dev\n   # or\n   yarn dev\n   # or\n   pnpm dev\n   # or\n   bun dev\n   ```\n\n4. **Open your browser**\n\n   Navigate to [http://localhost:3000](http://localhost:3000) to start typing!\n\n## How to Use\n\n### Starting a Test\n\n1. **Choose your timer** - Select from 15s, 30s, 60s, or custom durations\n2. **Begin typing** - Click in the text area or start typing immediately\n3. **Stay focused** - The app prevents mouse interference while you're typing\n4. **Complete the test** - Finish before time runs out or complete all words\n\n### Understanding Your Results\n\n- **WPM**: Your typing speed in words per minute\n- **Raw Speed**: Unfiltered typing speed including mistakes\n- **Accuracy**: Percentage of correctly typed characters\n- **Consistency**: How stable your typing speed was throughout the test\n- **Chart Analysis**: Visual representation of your performance over time\n\n### Customization\n\n- **Theme Toggle**: Switch between light and dark modes\n- **Timer Settings**: Adjust test duration to your preference\n- **Reset/Restart**: Start a new test anytime with fresh words\n\n## Features in Detail\n\n### Smart Typing Protection\n\nTypeMonkey includes an innovative focus protection system:\n\n- **Automatic focus retention** when actively typing\n- **Mouse event blocking** outside the typing area\n- **Visual indicators** when protection is active\n- **Seamless transition** back to normal mode when you stop typing\n\n### Advanced Analytics Engine\n\nThe application uses sophisticated algorithms for accurate measurements:\n\n- **Kalman filtering** for smooth real-time data\n- **Statistical analysis** for consistency scoring\n- **Performance trending** throughout the typing session\n- **Mistake pattern recognition** and visualization\n\n### Performance Optimization\n\n- **Memoized components** for efficient rendering\n- **Smooth cursor animation** with requestAnimationFrame\n- **Efficient event handling** with proper cleanup\n- **Optimized re-renders** for real-time updates\n\n## Themes\n\nTypeMonkey supports both light and dark themes with:\n\n- **System preference detection**\n- **Manual theme switching**\n- **Consistent color variables** throughout the app\n- **Smooth theme transitions**\n\n## Data Processing\n\nThe app processes typing data in real-time:\n\n- **Character-level accuracy** tracking\n- **Word completion timing**\n- **Mistake categorization**\n- **Speed fluctuation analysis**\n- **Consistency measurements** using standard deviation\n\n## Development\n\n### Project Structure\n\n```text\napp/\n├── components/          # React components\n│   ├── typingBox.tsx   # Main typing interface\n│   ├── timer.tsx       # Timer functionality\n│   ├── chart.tsx       # Performance charts\n│   ├── results.tsx     # Results display\n│   ├── navbar.tsx      # Navigation\n│   └── ...            # Other components\n├── lib/                # Utility functions\n├── globals.css         # Global styles\n└── page.tsx           # Main page component\n```\n\n### Key Components\n\n- **TypingBox**: Core typing interface with real-time processing\n- **Timer**: Countdown timer with performance snapshots\n- **Chart**: Interactive performance visualization\n- **Results**: Comprehensive statistics display\n- **Bar**: Settings and mode selection\n\n",
     "readmeTitle": "TypeMonkey - Advanced Typing Test Application",
     "readmeDescription": "A modern, featurerich typing test application built with Next.js, TypeScript, and React. TypeMonkey provides a comprehensive typing experience with realtime analytics, customizable themes, and advanced performance tracking. I mean at the end of the day it is a monkeytype clone, just made from scratch..."
+  },
+  {
+    "repoUrl": "https://github.com/ryuoraiden/nitc-bot",
+    "title": "NITC Bot",
+    "description": "A community Discord bot for NIT Calicut — searches PYQs and study materials from Google Drive, watches the official notice boards, reminds about CP contests, and links competitive-programming handles.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "atcoder",
+      "campus-bot",
+      "codechef",
+      "codeforces",
+      "competitive-programming",
+      "contest-reminders",
+      "discord-bot",
+      "discord-py",
+      "google-drive",
+      "leetcode",
+      "nit-calicut",
+      "nitc",
+      "pyq",
+      "python",
+      "sqlite",
+      "student-community",
+      "study-materials"
+    ],
+    "license": "MIT",
+    "lastUpdated": "2026-08-12T23:29:56Z",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ryuoraiden/nitc-bot/main/hof/thumbnail.png"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/ryuoraiden/nitc-bot/main/hof/thumbnail.png",
+    "website": null,
+    "authors": [
+      {
+        "login": "ryuoraiden",
+        "name": "ryuoraiden",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/210664422?v=4",
+        "profileUrl": "https://github.com/ryuoraiden",
+        "bio": null
+      }
+    ],
+    "submissionOrder": 10,
+    "readmeMarkdown": "# NITC Bot\n\nA community Discord bot for the NIT Calicut server. It pulls past papers and\nstudy material out of Google Drive, watches the official NITC notice boards, and\nkeeps the competitive-programming crowd on schedule — all from slash commands,\nrunning 24/7 on a small VM.\n\n## What it does\n\n- **Study materials** — `/pyq` and `/material` search a full-text index built\n  from public Google Drive folders (past papers, notes, slides, textbooks).\n  Anyone can register another folder with `/addsource`; the index refreshes\n  daily.\n- **Notice watcher** — polls the academic and general NITC notice boards every\n  3 hours and posts new circulars, fee deadlines and scholarships to a chosen\n  channel.\n- **High-signal bulletin** — tags notices as deadlines, workshops, placements or\n  admin updates, so `/bulletin` shows only what matters. Servers pick immediate\n  posts, a morning digest, or both.\n- **Contest reminders** — Codeforces, LeetCode, CodeChef and AtCoder schedules\n  from clist.by, with configurable lead times and an optional role ping.\n- **Handle linking** — `/link` and `/verify` prove you own a CP handle without\n  passwords (you place a one-time token in your profile), then `/profile` and\n  `/leaderboard` show live ratings and solved counts.\n- **Server plumbing** — welcome cards, self-role panels with buttons and\n  dropdowns, and sticky messages that survive restarts.\n\n## Built with\n\nPython 3.11 and discord.py, SQLite via aiosqlite, Pillow for the welcome cards.\nDeployed with a one-line setup script to a systemd unit that restarts on crash\nand starts on boot.\n\nContributions are welcome — see `CONTRIBUTING.md` in the repository.\n",
+    "readmeTitle": "NITC Bot",
+    "readmeDescription": "A community Discord bot for the NIT Calicut server. It pulls past papers and study material out of Google Drive, watches the official NITC notice boards, and keeps the competitiveprogramming crowd on schedule — all from slash commands, running 24/7 on a small VM."
+  },
+  {
+    "repoUrl": "https://github.com/Ordinary0x/The-3rd-Eye",
+    "title": "The 3rd Eye",
+    "description": "The 3rd Eye is a modular OSINT (Open Source Intelligence) framework built on an agent-based, graph-driven architecture. It automates public information discovery, identity correlation, and exposure analysis across multiple platforms, and generates structured intelligence reports. The system follows a LangGraph agent design.",
+    "stars": 11,
+    "forks": 3,
+    "language": "Python",
+    "topics": [
+      "cybersecurity",
+      "cybersecurity-tools",
+      "google-dorks",
+      "infomation-gathering-tool",
+      "information-gathering",
+      "langgraph",
+      "llm-agent",
+      "open-source-intelligence",
+      "osint",
+      "osint-python",
+      "osint-tool",
+      "python",
+      "social-media"
+    ],
+    "license": "MIT",
+    "lastUpdated": "2025-12-17T19:06:36Z",
+    "screenshots": [
+      "/projects/the-3rd-eye/thumbnail.png",
+      "/projects/the-3rd-eye/present_status.png",
+      "/projects/the-3rd-eye/Search_Agent.png"
+    ],
+    "thumbnail": "/projects/the-3rd-eye/thumbnail.png",
+    "website": null,
+    "authors": [
+      {
+        "login": "Ordinary0x",
+        "name": "Ordinary0x",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106372046?v=4",
+        "profileUrl": "https://github.com/Ordinary0x",
+        "bio": null
+      }
+    ],
+    "submissionOrder": 11,
+    "readmeMarkdown": "# 🕵️ The 3rd Eye — OSINT Intelligence Agentic Framework\r\n\r\n\r\n\r\n**The 3rd Eye** is a modular Open Source Intelligence (OSINT) Agentic framework designed to collect, correlate, and analyze publicly available information and present it in a **structured intelligence report**.\r\n\r\n\r\n\r\nThe project emphasizes:\r\n\r\n\r\n\r\n* Clear investigation flow\r\n\r\n* Modular agents\r\n\r\n* Reproducible results\r\n\r\n* Professional reporting standards\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 📌 Project Scope\r\n\r\n\r\n\r\nThe framework assists in:\r\n\r\n\r\n\r\n* Discovering public digital footprints\r\n\r\n* Correlating identities across platforms\r\n\r\n* Identifying exposed contact information\r\n\r\n* Generating analyst-ready intelligence reports\r\n\r\n\r\n\r\nThis tool is intended for **educational, research, and defensive OSINT use** only.\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## ✨ Core Features\r\n\r\n\r\n\r\n* **Search Agent**\r\n\r\n\r\n\r\n  * Automated search execution\r\n\r\n  * URL filtering and relevance classification\r\n\r\n\r\n\r\n* **Social Media Intelligence**\r\n\r\n\r\n\r\n  * LinkedIn profile extraction\r\n\r\n  * Instagram public data & media\r\n\r\n  * Twitter (X) profile and activity\r\n\r\n  * Facebook public profile data\r\n\r\n\r\n\r\n* **Username Enumeration**\r\n\r\n\r\n\r\n  * Cross-platform discovery using Maigret\r\n\r\n\r\n\r\n* **Contact Intelligence**\r\n\r\n\r\n\r\n  * Email extraction & analysis\r\n\r\n  * Phone number discovery (in progress)\r\n\r\n\r\n\r\n* **Media Collection**\r\n\r\n\r\n\r\n  * Profile images\r\n\r\n  * Banners\r\n\r\n  * Publicly accessible photos\r\n\r\n\r\n\r\n* **Intelligence Report Generation**\r\n\r\n\r\n\r\n  * Fixed professional report structure\r\n\r\n  * Executive summary\r\n\r\n  * Location intelligence\r\n\r\n  * Exposure & risk assessment\r\n\r\n  * Markdown output (PDF optional)\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🧠 Architecture Overview\r\n\r\n\r\n\r\nThe project follows a **graph-based agent architecture** using LangGraph.\r\n\r\n\r\n\r\n### Key Components\r\n\r\n\r\n\r\n* Search Agent\r\n\r\n* URL Classification Module\r\n\r\n* Platform-Specific Scrapers\r\n\r\n* Analysis Modules (Email, Phone, Username)\r\n\r\n* Report Synthesis\r\n\r\n  \r\n\r\n## 🏗 Architecture\r\n\r\n🔹 Current Architecture\r\n\r\n\r\n\r\n![status](https://github.com/Ordinary0x/The-3rd-Eye/blob/main/architecture_images/present_status.png)\r\n\r\n\r\n\r\n🔹 Search Agent Architecture\r\n\r\n\r\n\r\n![search_agent](https://github.com/Ordinary0x/The-3rd-Eye/blob/main/architecture_images/Search_Agent.png)\r\n\r\n\r\n\r\n🔹 Final Mission\r\n\r\n\r\n\r\n![mission](https://github.com/Ordinary0x/The-3rd-Eye/blob/main/architecture_images/Mission.png)\r\n\r\n\r\n\r\n📌 Architecture diagrams are provided in the repository (`/architecture_images`).\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🧰 Tools & Libraries\r\n\r\n\r\n\r\nThis project integrates established OSINT tools and libraries:\r\n\r\n\r\n\r\n* **Maigret**\r\n\r\n  [https://github.com/soxoj/maigret](https://github.com/soxoj/maigret)\r\n\r\n\r\n\r\n* **linkedin-scraper**\r\n\r\n  [https://github.com/joeyism/linkedin_scraper.git](https://github.com/joeyism/linkedin_scraper.git)\r\n\r\n\r\n\r\n* **Instaloader**\r\n\r\n  [https://instaloader.github.io/](https://instaloader.github.io/)\r\n\r\n\r\n\r\n* **twscrape**\r\n\r\n  [https://github.com/vladkens/twscrape](https://github.com/vladkens/twscrape)\r\n\r\n\r\n\r\n* **Holehe**\r\n\r\n  [https://github.com/megadose/holehe](https://github.com/megadose/holehe)\r\n\r\n\r\n\r\n* **facebook-scraper**\r\n\r\n  [https://github.com/kevinzg/facebook-scraper.git](https://github.com/kevinzg/facebook-scraper.git)\r\n\r\n\r\n\r\n* **LangGraph** (agent orchestration)\r\n\r\n\r\n\r\n* **Google Gemini 2.5** (intelligence synthesis)\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🔑 API Configuration\r\n\r\n\r\n\r\n### Required\r\n\r\n\r\n\r\n```env\r\n\r\nGOOGLE_API_KEY=your_gemini_2.5_free_api_key\r\n\r\n```\r\n\r\n\r\n\r\n### Optional (Enhancement APIs)\r\n\r\n\r\n\r\n```env\r\n\r\nHIBP_API_KEY=your_key\r\n\r\nBREACHDIRECTORY_API_KEY=your_key\r\n\r\nINTELX_KEY=your_key\r\n\r\n```\r\n\r\n\r\n\r\n> Optional APIs improve depth of analysis but are **not mandatory**.\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 📄 Report Output\r\n\r\n\r\n\r\nReports are generated in **Markdown** format with a fixed outline.\r\n\r\n\r\n\r\nExample output structure:\r\n\r\n\r\n\r\n```\r\n\r\ntarget_name/\r\n\r\n    ├── photos/\r\n\r\n    │   ├── profile.jpg\r\n\r\n    │   ├── banner.jpg\r\n\r\n    └── final_report.md\r\n\r\n```\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🚀 Installation\r\n\r\n\r\n\r\n### 1️⃣ Clone the Repository\r\n\r\n\r\n\r\n```bash\r\n\r\ngit clone https://github.com/your-username/the-3rd-eye.git\r\n\r\ncd the-3rd-eye\r\n\r\n```\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n### 2️⃣ Install Dependencies\r\n\r\n\r\n\r\n#### Option A: Using `uv` (Recommended)\r\n\r\n\r\n\r\n```bash\r\n\r\nuv venv\r\n\r\nsource .venv/bin/activate\r\n\r\nuv pip install -r requirements.txt\r\n\r\n```\r\n\r\n\r\n\r\n#### Option B: Using `pip`\r\n\r\n\r\n\r\n```bash\r\n\r\npython3 -m venv .venv\r\n\r\nsource .venv/bin/activate\r\n\r\npip install -r requirements.txt\r\n\r\n```\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n### 3️⃣ Environment Variables\r\n\r\n\r\n\r\nCreate a `.env` file:\r\n\r\n\r\n\r\n```bash\r\n\r\ncp .env.example .env\r\n\r\n```\r\n\r\n\r\n\r\nAdd required API keys.\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n### 4️⃣ Run the Tool\r\n\r\n\r\n\r\n```bash\r\n\r\npython main.py\r\n\r\n```\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🧪 Project Status\r\n\r\n\r\n\r\n* ✅ Search Agent\r\n\r\n* ✅ URL Classification\r\n\r\n* ✅ Core Social Media Scrapers\r\n\r\n* ✅ Email Analysis\r\n\r\n* ⚠ Phone Number Intelligence (WIP)\r\n\r\n* ⚠ Maigret Full Automation (WIP)\r\n\r\n* ⚠ Image Analysis (Planned)\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🔭 Future Work\r\n\r\n\r\n\r\nPlanned enhancements include:\r\n\r\n\r\n\r\n* Ollama (local LLM) support\r\n\r\n* Multi-agent intelligence workflows\r\n\r\n* Image analysis (object & face detection & Backgroung detection)\r\n\r\n* Entity relationship graphs\r\n\r\n* Timeline reconstruction\r\n\r\n* Confidence scoring\r\n\r\n* CLI automation modes\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🎯 Project Vision\r\n\r\n\r\n\r\nThe long-term goal is to build a **robust, extensible OSINT framework** that:\r\n\r\n\r\n\r\n* Scales from simple investigations to advanced research\r\n\r\n* Encourages responsible OSINT practices\r\n\r\n* Supports community-driven improvements\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## 🤝 Contributions\r\n\r\n\r\n\r\nContributions are welcome.\r\n\r\n\r\n\r\nAreas where help is appreciated:\r\n\r\n\r\n\r\n* OSINT tooling\r\n\r\n* Debuging present errors\r\n\r\n* Making a website\r\n\r\n* Data analysis\r\n\r\n* Visualization\r\n\r\n* Documentation\r\n\r\n\r\n\r\nPlease open an issue or discussion before submitting major changes.\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n## ❓ Questions or Suggestions?\r\n\r\n\r\n\r\nIf you have:\r\n\r\n\r\n\r\n* Feature ideas\r\n\r\n* Architecture suggestions\r\n\r\n* Tool integrations\r\n\r\n* Research improvements\r\n\r\n\r\n\r\nFeel free to open an issue or start a discussion.\r\n\r\n\r\n\r\n---\r\n\r\n\r\n\r\n",
+    "readmeTitle": "🕵️ The 3rd Eye — OSINT Intelligence Agentic Framework",
+    "readmeDescription": "The 3rd Eye is a modular Open Source Intelligence (OSINT) Agentic framework designed to collect, correlate, and analyze publicly available information and present it in a structured intelligence report."
   }
 ]
