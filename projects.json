@@ -65,5 +65,12 @@
     ],
     "description": "Clone of TypeMonkey where you change check your typing speed.",
     "website": "https://typing-test-app-gamma.vercel.app/"
+  },
+  {
+    "title": "NITC Bot",
+    "project": "https://github.com/ryuoraiden/nitc-bot",
+    "authors": ["https://github.com/ryuoraiden"],
+    "description": "A community Discord bot for NIT Calicut — searches PYQs and study materials from Google Drive, watches the official notice boards, reminds about CP contests, and links competitive-programming handles.",
+    "website": ""
   }
 ]
